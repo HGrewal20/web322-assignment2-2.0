@@ -1,0 +1,29 @@
+<div class="container">
+    <nav class="navbar">
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/meals">Meals</a></li>
+            <li><a href="#login">Login</a></li>
+            <li><a href="/register">Register</a></li>
+        </ul>
+    </nav>
+    <section id="login">
+        <h1>Login Here</h1>
+        <h4 id="errors"></h4>
+        <form id="LoginForm" action="#" method="POST">
+            <div id="login_form">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Email" tabindex="1" autofocus required>
+
+                <br><br>
+
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" placeholder="Password" tabindex="2" required>
+
+                <button type="submit">Login</button>
+            </div>
+        </form>
+    </section>
+</div>
+
+<script src="js/login.js"></script>
